@@ -1,0 +1,218 @@
+@charset "UTF-8"; 
+
+/* FONTES */
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+@font-face {
+    font-family: "Mocha Mattari";
+    src: url(fontes/Mocha\ Mattari.otf);
+}
+
+/* CABEÇALHO */
+
+header{
+    background-image: url(imagens/headerimg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    height: 50%;
+    margin: 0px;
+}
+
+#placa{
+    font-family: "Alfa Slab One";
+    color:#D9BBB0;
+    text-shadow:
+    12px 12px 12px #111110;
+    font-size: 5em;
+    text-align: center;
+    padding-top: 15px;
+    margin: 0px;
+}
+
+#sub{
+    color: white;
+    text-align: center;
+    padding-bottom: 1em;
+    text-shadow: 2px 2px black;
+    font-family: "Mocha Mattari";
+    font-size: 2em;
+}
+
+#enderecamento{
+    color: #733F2C;
+    text-decoration: none;
+    padding-left: 3em;
+    padding-bottom: 1.5em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cabecalho{
+    background-color: #D9BBB0;
+    font-family: 'Alfa Slab One';
+    font-size: 0.9em;
+    color: #733F2C;
+    padding: 10px 10px 10px 10px;
+    margin-left: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.cabecalho:hover{
+    background-color: #733f2ccc;
+    color: white;
+    transition: 1s;
+}
+
+/* CORPO */
+
+body{
+    min-height: 50%;
+    width: auto;
+    margin: 0px;
+    outline: 0px;
+}
+
+.titulo{
+    font-family: 'Great Vibes';
+    font-size: 6em;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    color: #733F2C;
+    text-shadow: 3px 3px #733f2c63;
+    text-align: center;
+    margin: 0px;
+}
+
+.subtitulo{
+    background-color: #d9bbb053;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    border-radius: 20px;
+}
+
+.imgesquerda{
+    border: 3px solid #733F2C;
+    background-color: #733F2C;
+    border-radius: 4px;
+    padding: 5px;
+    margin-left: 8em;
+
+}
+
+.explicacaofoto{
+    display: flex;
+}
+
+.escrita{
+    padding: 0em 4em 0em 1em;
+    font-size: 1.5em;
+    text-align: justify;
+}
+
+.topico{
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    margin-left: 0.5em;
+    font-size: 5em;
+    color: #733F2C;
+    font-family: "Mocha Mattari", Verdana, sans-serif;
+    text-shadow: 4px 4px #733f2c63;
+}
+
+.item{
+    margin:  0.5em 3em 1em 3em;;
+    border-radius: 40px;
+    box-shadow: 5px 5px #733F2C;
+}
+
+.centro{
+    text-align: center;
+}
+
+#localizacao{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 2em 2em 3em 3em;
+    margin-left: 3em;
+    position: sticky;
+    height: 100%;
+    width: 100%;
+}
+
+.paralax{
+    width: 100%;
+    height: 500px;
+    background-image: url(imagens/paralax.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 3em;
+}
+
+
+.logo{
+    padding-left: 1em;
+    padding-top: 1em;
+}
+
+.item:hover{
+    zoom: 125%;
+}
+
+#atendimento{
+    padding-left: 2em;
+    text-align: center;
+}
+
+.subsite{
+    border-radius: 30px;
+    background-color: #ffe8e0;
+    margin: 20px 40px 20px 40px;
+    padding: 0.5em 2em;
+    text-align: justify;
+    font-size: 1.5em;
+    line-height: 1.7em;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.titulosubsite{
+    font-family: 'Great Vibes';
+    font-size: 4em;
+    color: #D9BBB0;
+    text-shadow: 3px 3px black;
+    text-align: center;
+    line-height: 1em;
+}
+
+.quadrado{
+    display: inline-block;
+    font-style: oblique;
+    font-size: 1.3em;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(253, 32, 32);
+    text-shadow: 2px 2px rgb(17, 17, 17);
+    width: 25%;
+    height: auto;
+    padding: 1px 1px 1px 1px;
+    margin-left: 3em;
+    padding-top: 3em;
+}
+
+div.quadrado>p{
+    display: inline-block;
+    padding: 1em;
+    background-color: #733F2C;
+    border-radius: 20px;
+}
+
+footer{
+    background-color: #733F2C;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: white;
+}
