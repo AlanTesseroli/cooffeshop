@@ -100,7 +100,8 @@ body{
     border-radius: 4px;
     padding: 5px;
     margin-left: 8em;
-
+    width: 50%;
+    height: 100%;
 }
 
 .explicacaofoto{
